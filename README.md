@@ -1,5 +1,5 @@
 # PR3Tech-Woman
-Repositório grupo 6 - Gama Mulheres em Cloud <br>
+Repositório grupo 6 - Gama Mulheres em Cloud <br><br>
 A Consultoria Fictícia Cravo&Canela, está construindo uma nova plataforma e
 precisa de uma API para gerenciar as transações. Utilize suas novas habilidades com
 Java, Banco de dados e AWS.
