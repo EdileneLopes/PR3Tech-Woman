@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Variaves de Ambiente ###
+.DS_Store

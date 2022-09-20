@@ -3,6 +3,8 @@ package br.com.cravoecanela.service;
 import java.util.ArrayList;
 
 import br.com.cravoecanela.model.Cliente;
+import org.springframework.stereotype.Repository;
+
 
 public interface IClienteService {
 	public ArrayList<Cliente> recuperarTodos();
