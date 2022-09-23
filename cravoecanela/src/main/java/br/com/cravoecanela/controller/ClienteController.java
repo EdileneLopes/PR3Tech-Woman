@@ -26,9 +26,12 @@ public class ClienteController {
 	@GetMapping("/{id}")
 	public ResponseEntity<Cliente> recuperarPeloId(@PathVariable Long id){
 		Cliente res = service.recuperarPeloId(id);
+		if (res != null){
 			return ResponseEntity.ok(service.recuperarPeloId(id));
 		}
-
+	 
+		 return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+	 }
 
 	@PostMapping("/cadastrar")
 	public ResponseEntity<Cliente> cadastrarNovo(@RequestBody Cliente novo){

@@ -8,6 +8,9 @@ import lombok.Setter;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+
+import org.springframework.http.ResponseEntity;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -34,6 +37,8 @@ public class Cliente{
 	
 	@Column(name = "telefone", length = 20, nullable = true)
 	private String telefone;
+
+	
 
 
 }

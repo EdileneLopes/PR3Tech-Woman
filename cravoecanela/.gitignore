@@ -34,3 +34,4 @@ build/
 
 ### Variaves de Ambiente ###
 .DS_Store
+/bin/
