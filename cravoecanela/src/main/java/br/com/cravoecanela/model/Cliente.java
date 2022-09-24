@@ -9,8 +9,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-import org.springframework.http.ResponseEntity;
-
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -26,17 +24,19 @@ public class Cliente{
 	@Column(name = "id_cliente")
 	private Long idCliente;
 	
-	@Column(name = "cnpj", length = 14, nullable = false)
-	private String cnpj;
-	
-	@Column(name = "email", length = 14, nullable = false)
-	private String email;
-	
 	@Column(name = "nome", length = 60, nullable = true)
 	private String nome;
 	
-	@Column(name = "telefone", length = 20, nullable = true)
-	private String telefone;
+	@Column(name = "email", length = 30, nullable = false)
+	private String email;
+	
+	@Column(name = "senha", length = 15, nullable = true)
+	private String senha;
+	
+	@Column(name = "cpf", length = 18, nullable = false)
+	private String cpf;
+	
+	
 
 	
 
