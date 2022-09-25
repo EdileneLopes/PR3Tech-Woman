@@ -1,36 +1,62 @@
 # PR3Tech-Woman
-Repositório grupo 6 - Gama Mulheres em Cloud <br><br>
 
-<h2 align="center">🚧 Em construção 🚧</h2>
+<h3 align ="center">🚧 Em construção 🚧</h3>
 
-A Consultoria Fictícia Cravo&Canela, está construindo uma nova plataforma e
-precisa de uma API para gerenciar as transações. Utilize suas novas habilidades com
-Java, Banco de dados e AWS.
-O sistema deve permitir cadastro de novos clientes, incluindo dados pessoais e
-dados para contato. O cliente deve ser atrelado a umacontaúnica(comtodososdados
-inclusos) e registrar histórico de movimentação dessa conta, abaixo segue as entregas
-mínimas:
+<p align ="center">Bootcamp Mulheres em Cloud<p>
+<p align ="center">Parceria Gama Academy e McKinsey&Company<p>
 
-ENTREGA DO PROJETO
-1. Metodologias Ágeis:
-a. Kanban com todas as tarefas organizadas e responsáveis definidos.
-2. Back-end:
-a. Cadastro de clientes
-b. Listagem de clientes
-c. Atualização de clientes
-d. Deletar clientes
-e. Histórico de transações entre contas
-3. Banco de Dados:
-a. Tabelas bem estruturadas e populadas com valores para testes.
-b. O Banco deve ser entregue em script SQL junto ao repositório.
-4. Gerais:
-a. O código deve ser entregue em um repositório no Github.
-b. A API deve ser disponibilizada em ambiente AWS com EC2 e em Beanstalk
-c. A aplicação deve ter um pipeline em Jenkins ou no Aws Build.
-d. A aplicação precisa ser configurada no API Gateway da AWS.
-e. A aplicação precisa ter no mínimo um endpoint de SNS para cadastro de
-emails e verificação automática.
-f. Front end responsivo básico - com JavaScript
-g. Liste os endpoints no README.md
-h. Documentação da Aplicação;
-i. Sugestão de documentação com swagger;
+<p align>Conteúdo</p>
+
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Equipe](#Equipe)
+   * [Tecnologias](#tecnologias)
+   * [Funcionalidades](#funcionalidade)
+   * [Captura de Tela](#capturadetela)
+   * [O que podemos Melhorar?](#oquepodemosmelhorar)
+<!--te-->
+
+<p align>Sobre</p>
+
+<p>Criamos uma aplicação de agencia de turismo, que tem como objetivo a avaliação final do Bootcamp Mulheres em Cloud.
+
+Pensamos em uma API que a experiência do usuário seja basicamente, cadastro, compra de pacote de viagens e movimentação de seu histórico de compras.</p>
+
+
+<p align>Equipe</p>
+
+<!--ts-->
+   * [Edilene Rosario ](#Sobre) - Back-end / Infra
+   * [Juliana Rocha](#Equipe) - Banco de Dado / Infra
+   * [Patricia Ruffino](#tecnologias) - Back-end / Infra
+   * [Raphaela Takei](#funcionalidade) - Front-end / Infra
+   * [Tatiana Pimentel](#capturadetela) - Front-end / Infra
+<!--te-->
+<br>
+
+<p align>Tcnologias</p>
+
+<p>Back-end:</p>
+<p>JAVA</p>
+<p>MySQL</p><br>
+
+<p>Front-end:</p>
+<p>React</p><br>
+
+<p>Infra:</p>
+<p>S3 para armazenamento de arquivos</p>
+<p>Cloudfront consumindo do S3</p>
+<p>Amazon RDS rodando em MySQL</p><br>
+
+<p align>Funcionalidades</p>
+
+<p>Cadastro e login de usuarios</p>
+<p>Compra de um pacote de Viagem</p>
+<p>Registro historico e movimentação dessa conta</p><br>
+
+<p align>Captura de Tela</p><br>
+
+<p align>O que podemos Melhorar?</p>
+
+
+
