@@ -16,7 +16,7 @@ import javax.persistence.*;
 public class OrdemPedido {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    @Column(name = "id_ordem_peido")
+    @Column(name = "id_ordem_pedido")
     private Long Id;
 
     @ManyToOne
