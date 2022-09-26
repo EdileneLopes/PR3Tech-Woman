@@ -12,16 +12,17 @@
 /*Internacional*/
 .pacote-internacional{
     font-size: 16px;
-    background-color:var(--logo_green) ;
+    background-image:linear-gradient(50deg, var(--logo_green),var(--logo_blue));
     height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     letter-spacing: 2px;
+    
 }
 .pacote-internacional .descricao{
-    margin-top: 10mm;
+    margin-top: 10px;
     margin-bottom: 40px;
     width: max-content;
 }
@@ -33,8 +34,9 @@
 
 /*Nacional*/
 .pacote-nacional{
+    margin:50px -40px 0px -40px;
     font-size: 16px;
-    background-color:var(--logo_blue) ;
+    background-image:linear-gradient(50deg,var(--logo_blue),var(--logo_green));
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -87,11 +89,17 @@
 
 /*carrossel container*/
 .carousel-fotos{
-    margin:40px;
+    margin:-50px 40px 0px 40px;
 }
+.carousel-fotos2{
+    margin:-50px 0px 0px 0px;
+}
+
 /*img*/
 .box-fotos{
     border-radius: 5px;
+    width: 280;
+    height: 180;
 }
 /*card carrossel*/
 .item{
@@ -101,6 +109,7 @@
     box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.87);
     padding: 15px;
     border: 0.5px solid rgba(128, 128, 128, 0.4);
+    background-color: var(--white);
     
 }
 .item #description-card{
@@ -110,4 +119,8 @@
 
 h4{
     color: var(--logo_orange);
+}
+
+footer{
+    margin:50px -40px 0px -40px;
 }
