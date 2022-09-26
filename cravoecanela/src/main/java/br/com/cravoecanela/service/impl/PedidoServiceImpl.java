@@ -1,7 +1,8 @@
-package br.com.cravoecanela.service;
+package br.com.cravoecanela.service.impl;
 
 import java.util.ArrayList;
 
+import br.com.cravoecanela.service.IPedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +10,7 @@ import br.com.cravoecanela.dao.PedidoDAO;
 import br.com.cravoecanela.model.Pedido;
 
 @Service
-public class PedidoServiceImpl implements IPedidoService{
+public class PedidoServiceImpl implements IPedidoService {
 
 	@Autowired
 	private PedidoDAO dao;

@@ -1,7 +1,8 @@
-package br.com.cravoecanela.service;
+package br.com.cravoecanela.service.impl;
 
 import java.util.ArrayList;
 
+import br.com.cravoecanela.service.IPacoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +10,7 @@ import br.com.cravoecanela.dao.PacoteDAO;
 import br.com.cravoecanela.model.Pacote;
 
 @Service
-public class PacoteServiceImpl implements IPacoteService{
+public class PacoteServiceImpl implements IPacoteService {
 
 	@Autowired
 	private PacoteDAO dao;

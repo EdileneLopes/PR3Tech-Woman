@@ -1,7 +1,8 @@
-package br.com.cravoecanela.service;
+package br.com.cravoecanela.service.impl;
 
 import java.util.ArrayList;
 
+import br.com.cravoecanela.service.IClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import br.com.cravoecanela.dao.ClienteDAO;
