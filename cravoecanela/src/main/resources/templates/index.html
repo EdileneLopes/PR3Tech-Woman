@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Principal-->
+    <link rel="stylesheet" th:href="@{/assets/style/main.css}">
+    <!--Responsividade-->
+    <link rel="stylesheet" th:href="@{/assets/style/responsive.css}">
+    <!--cards-->
+    <link rel="stylesheet" th:href="@{/assets/style/cards.css}">
+    <!--owl css-->
+    <link rel="stylesheet" th:href="@{/assets/style/owl/owl.carousel.min.css}">
+    <link rel="stylesheet" th:href="@{/assets/style/owl/owl.theme.default.min.css}">
+    <!--ícone-->
+    <link rel="shortcut icon" th:href="@{/assets/img/logoicon.png}" type="image/x-icon}">
+        <!--importação icones Tatiana-->
+        <script th:src="@{https://kit.fontawesome.com/b69b277e4c.js}" crossorigin="anonymous" defer></script>
+        <!--importação icones Raphaela-->
+        <script th:src="@{https://kit.fontawesome.com/7d909281fe.js}" crossorigin="anonymous" defer></script>
+        <!--carrossel-->
+        <script th:src="@{assets/js/jquery.min.js}" defer></script>
+        <script th:src="@{assets/js/owl.carousel.min.js}" defer></script>
+        <script th:src="@{assets/js/setup.js}" defer></script>
+    
+    <title>Cravo&Canela | Agência de Viagens</title>
+</head>
+
+
+<body>
+    
+    <!--MENU-->
+    <header th:class="@{nav-container}">
+        <picture th:id="@{logo}"><a th:href="@{index.html}"><img th:src="@{assets/img/logo.png}" alt="Cravo&Canela | Agência de Viagens - logo" title="Cravo&Canela | Agência de Viagens"></a></picture>
+        <nav>
+            <button><a href="">Pacotes</a></button>
+            <button><a href="">Sobre</a></button>
+            <button><a href="">Fale Conosco</a></button>
+        </nav>
+        <a th:href="@{/pages/login.html}">
+            <button th:role="@{button}" th:id="@{button-login}">
+                <i th:class="@{fa-solid fa-circle-user fa-xl}"></i>
+                    Entrar
+            </button>  
+        </a>
+    </header>
+
+    <!--DIV PACOTE INTERNACIONAL-->
+    <main>
+        <div th:class="@{pacote-internacional}">
+            <div th:class="@{container}">
+                <h3 th:class="@{titulo}">Pacotes Internacionais</h3>
+                <p th:class="@{descricao}">Confira nossa seleção especial de destinos exclusivos para momentos inesquecíveis.</p>
+                <!--botão mais informações-->
+            <div th:class="@{button}">
+                <button th:role="@{button}" th:class="@{botao}">
+                    <i th:class="@{fa-solid fa-circle-info fa-xl}"></i>
+                    MAIS INFORMAÇÕES
+                </button>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <!--CARROSSEL PACOTE INTERNACIONAL-->
+    <div th:class="@{carousel-fotos}">
+    <div th:class="@{owl-carousel owl-theme}">
+        <div th:class="@{item}" th:each = "pacote : ${pacotes}">
+            <img th:class="@{box-fotos}" th:src="${pacote.linkFoto}" alt="" srcset="">
+            <div th:id="@{description-card}">
+                <h4 th:text="${pacote.destino}"></h4>
+                <br>
+                <span>R$</span><h3 th:text="${pacote.preco}"></h3>
+                <br>
+                <p th:id="@{pacote}">Período:<span th:text="${pacote.data_checkin}"></span></p>
+            </div>
+        </div>
+    </div>
+        <!--DIV PACOTE NACIONAL-->
+    <main>
+        <div th:class="@{pacote-nacional}">
+            <div th:class="@{container}">
+                <h3 th:class="@{titulo}">Pacotes Nacionais</h3>
+                <p th:class="@{descricao}">Aproveite os benefícios dos nossos pacotes para lugares onde nossos visitantes mais se divertem. Melhor custo-benefício.</p>
+            <div th:class="@{button}">
+                <button th:role="@{button}" th:class="@{botao}">
+                    <i th:class="@{fa-solid fa-circle-info}"></i>
+                    MAIS INFORMAÇÕES
+                </button>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <!--CARROSSEL PACOTE NACIONAL-->
+
+
+
+
+    <!--RODAPÉ-->
+    <footer>
+        <div th:id="@{grupo}">&copy; PR3TechWoman  | </div>
+        <div th:id="@{git}"><a th:href="@{https://github.com/EdileneLopes/PR3Tech-Woman}"><img th:src="@{/assets/img/github.png}" alt="">GitHub</a></div>
+    </footer>
+
+
+</body>
+</html>

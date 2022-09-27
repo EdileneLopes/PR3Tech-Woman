@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+:root{
+    --black:#141414;
+    --white:#fff;
+    --logo_green:rgba(83, 138, 127, 0.877);
+    --logo_grey: #616161;
+    --logo_blue: #399ab5de;
+    --logo_orange: #EB8836;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marcellus', serif;
+    color: var(--logo_grey);
+}
+
+body{
+    background-image: url(/assets/img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.login-box{
+    background-color: rgba(227, 227, 227, 0.95);
+    height: 70vh;
+    width: 40vw;
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 15vh;
+}
+
+.logo{
+    margin-top: 4vh;
+    max-width: 16vw;
+}
+
+.icon{
+    margin-top: 1vh;
+    margin-bottom: 0;
+    max-width: 25px;
+}
+
+#icon{
+    max-width: 17px;
+}
+
+.input-box{
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom-color: var(--logo_grey);
+    border-width: 1px;
+    margin-bottom: 4vh;
+    letter-spacing: 1px;
+    width: 30vh;
+    height: 5vh;
+}
+
+
+.login-btn{
+    margin-top: 1vh;
+    background-color: var(--logo_grey);
+    letter-spacing: 2px;
+}
+
+
+.register{
+    margin-bottom: 3vh;
+    text-decoration: none;
+    color: var(--logo_grey);
+    letter-spacing: 2px;
+    
+}
+.register h3{
+    font-size: 16px;
+}
+.register h3:hover{
+    color: var(--logo_orange);
+    transition: 0.5s;
+}
+
+.logo-login h4{
+    border-left: 0.5px solid var(--logo_grey);
+    padding: 15px 0 15px 40px;
+    margin: 25px 0 0 40px;
+    letter-spacing: 8px;
+}
+
