@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+:root{
+    --black:#141414;
+    --white:#fff;
+    --logo_green:rgba(83, 138, 127, 0.877);
+    --logo_grey: #616161;
+    --logo_blue: #399ab5de;
+    --logo_orange: #EB8836;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marcellus', serif;
+    color: var(--logo_grey);
+}
+
+body{
+    background-image: url(/assets/img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.login-box{
+    background-color: rgba(227, 227, 227, 0.95);
+    height: 70vh;
+    width: 60vw;
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 15vh;
+}
+
+.logo{
+    margin-top: 4vh;
+    max-width: 16vw;
+}
+
+.logo-admin{
+    margin-top: 1vh;
+}
+
+.logo-admin h4{
+    border-left: 0.5px solid var(--logo_grey);
+    padding: 15px 0 15px 40px;
+    margin: 25px 0 0 40px;
+    letter-spacing: 8px;
+}
+
+
+
+/*botao cadastro*/
+
+.register{
+    margin-bottom: 13vh;
+    letter-spacing: 3px;
+}
+
+.register a{
+    text-decoration: none;
+    color: var(--logo_grey);
+}
+.register a:hover{
+    color: var(--white);
+}
+
+
+/*botao listagem*/
+.return-client{
+    margin-bottom: 15vh;
+    letter-spacing: 2px;
+}
+
+.return-client a{
+    text-decoration: none;
+    color: var(--logo_grey);
+}
+.return-client a:hover{
+    color: var(--white);
+}
+
+
+
+
+

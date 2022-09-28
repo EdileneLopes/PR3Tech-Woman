@@ -17,6 +17,10 @@
     
 }
 
+body{
+    background-color: rgb(240, 240, 240)
+}
+
 /*logo principal*/
 #logo img{
     max-width: 260px;
@@ -28,9 +32,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin: 20px;
+    margin: 3%;
     letter-spacing: 2px;
-    height: 120px;
 }
 nav button{
     font-size: 17px;
@@ -66,9 +69,10 @@ nav a{
     text-decoration: none;
 }
 #button-login:hover{
-    border: 0.5px solid var(--white);
-    background-color: var(--logo_green);
+    border: 0.5px solid transparent;
+    background-image:linear-gradient(to bottom right, var(--logo_green),var(--logo_blue));
     color: var(--white);
+    
 
 }
 .nav-container a{

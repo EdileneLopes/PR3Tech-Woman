@@ -29,7 +29,7 @@ body{
 .login-box{
     background-color: rgba(227, 227, 227, 0.95);
     height: 70vh;
-    width: 40vw;
+    width: 60vw;
     border-radius: 5px;
     box-shadow: 15px 15px 30px 5px rgba(0, 0, 0, 0.2);
     margin-top: 15vh;
@@ -56,38 +56,39 @@ body{
     border-bottom-color: var(--logo_grey);
     border-width: 1px;
     margin-bottom: 4vh;
-    letter-spacing: 1px;
-    width: 30vh;
+    letter-spacing: 2px;
+    width: 40vh;
     height: 5vh;
+    font-size: 17px;
 }
 
 
 .login-btn{
-    margin-top: 1vh;
-    background-color: var(--logo_grey);
+    margin-top: 5vh;
     letter-spacing: 2px;
+    padding: 15px 25px;
 }
 
-
-.register{
-    margin-bottom: 3vh;
+.login-btn a{
     text-decoration: none;
     color: var(--logo_grey);
-    letter-spacing: 2px;
-    
 }
-.register h3{
-    font-size: 16px;
-}
-.register h3:hover{
-    color: var(--logo_orange);
-    transition: 0.5s;
+.login-btn a:hover{
+    color: var(--white);
 }
 
-.logo-login h4{
+.logo-admin{
+    margin-top: 1vh;
+}
+
+.logo-admin h4{
     border-left: 0.5px solid var(--logo_grey);
     padding: 15px 0 15px 40px;
     margin: 25px 0 0 40px;
     letter-spacing: 8px;
+}
+
+.input-area{
+    margin-bottom: 10vh;
 }
 

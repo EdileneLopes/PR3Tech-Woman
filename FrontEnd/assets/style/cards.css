@@ -19,16 +19,39 @@
     justify-content: center;
     align-items: flex-start;
     letter-spacing: 2px;
+    width: 100%;
     
 }
 .pacote-internacional .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
-    width: max-content;
+    width: 100%;
 }
 .titulo{
     margin-top: 20mm;
     font-size: 40px;
+}
+
+.botaocard{
+    background-color: #eb8836dd;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.500);
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3s ease all;
+    letter-spacing: 2px;
+}
+.botaocard:hover{
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+}
+.botao i{
+    margin-right: 8px;
 }
 
 
@@ -48,7 +71,7 @@
 .pacote-nacional .descricao{
     margin-top: 10mm;
     margin-bottom: 40px;
-    width: max-content;
+    width: 100%;
 }
 
 .titulo{
@@ -87,6 +110,8 @@
 
 
 
+
+
 /*carrossel container*/
 .carousel-fotos{
     margin:-50px 40px 0px 40px;
@@ -97,19 +122,18 @@
 
 /*img*/
 .box-fotos{
-    border-radius: 5px;
-    width: 280;
-    height: 180;
+    border-radius: 10px;
 }
 /*card carrossel*/
 .item{
     color: var(--logo_grey);
-    border-radius: 5px;
+    border-radius: 10px;
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.87);
-    padding: 15px;
+    padding: 5%;
     border: 0.5px solid rgba(128, 128, 128, 0.4);
     background-color: var(--white);
+    background-color: rgb(240, 240, 240)
     
 }
 .item #description-card{
@@ -117,8 +141,9 @@
     letter-spacing: 2px;
 }
 
-h4{
+#description-card h3{
     color: var(--logo_orange);
+    letter-spacing: 4px;
 }
 
 footer{
