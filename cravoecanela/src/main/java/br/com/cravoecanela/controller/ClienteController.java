@@ -12,6 +12,7 @@ import br.com.cravoecanela.service.IClienteService;
 
 @RestController
 @RequestMapping("clientes")
+@CrossOrigin(origins = "*")
 public class ClienteController {
 
 	@Autowired
