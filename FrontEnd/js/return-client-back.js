@@ -1,5 +1,5 @@
 const carregar = async () => {
-    const rawResponse = await fetch('http://localhost:5500/cliente', {
+    const rawResponse = await fetch('http://3.89.93.225:8080/clientes', {
         method: 'GET',
         headers: {
             'Accept': 'application/json',
@@ -7,6 +7,10 @@ const carregar = async () => {
         }
     });
     const cliente = await rawResponse.json();
+
+    console.log(content);
+
+    carregar();
 
     let html = ""
     cliente.forEach(cliente => {

@@ -1,5 +1,5 @@
 const carregar = async () => {
-    const rawResponse = await fetch('http://localhost:5500/pacote', {
+    const rawResponse = await fetch('http://3.89.93.225/pacote', {
         method: 'GET',
         headers: {
             'Accept': 'application/json',

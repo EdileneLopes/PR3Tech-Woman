@@ -84,6 +84,11 @@ form{
     transition: .5s ease all;
 }
 
+.cadastrar-btn a{
+    text-decoration: none;
+    color: var(--logo_grey);
+}
+
 .btn:hover{
     background-image:linear-gradient(to bottom right, var(--logo_green),var(--logo_blue));
     border: 1.5px solid transparent;

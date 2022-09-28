@@ -17,30 +17,31 @@
             <a href="../index.html"><img class="logo" src="../assets/img/logo.png"></a>
             <p>Cadastro</p>
         </div>
-        <form action="" method="post">
+        <form action="" method="get">
             <!-- nome usuário -->
             <div class="user">
-                <input id="nome" type="nome" placeholder="Nome Completo">
+                <input id="nome" type="nome" placeholder="Nome Completo" required>
             </div>
             <!-- cpf usuário -->
             <div class="user">
-                <input id="cpf" type="cpf" placeholder="999.999.999-99">
+                <input id="cpf" type="cpf" placeholder="999.999.999-99" required>
             </div>
             <!-- email -->
             <div class="user">
-                <input id="email" type="email" placeholder="name@example.com">
+                <input id="email" type="email" placeholder="name@example.com" required>
             </div>
             <!-- senha -->
             <div class="user">
-                <input id="password" type="password" placeholder="Senha">
+                <input id="password" type="password" placeholder="Senha" required>
             </div>
             <!-- confirmação senha -->
             <div class="user">
-                <input id="password" type="password" placeholder="Confirmar Senha">
+                <input id="password" type="password" placeholder="Confirmar Senha" required>
             </div>
             <!-- botão cadastro -->
-                <button type="submit" class="btn">Cadastrar-se</button>  
-           
+                <button type="submit" class="btn btn-outline-dark cadastrar-btn"><a href="return-client.html">Cadastrar</a></button>
+           <!--função js-->
+           <script src="/js/register.js"></script>
         </form>
     </div>
 </body>
