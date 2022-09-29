@@ -1,5 +1,5 @@
-const carregar = async () => {
-    const rawResponse = await fetch('http://3.89.93.225:8080/clientes', {
+const clientes = async () => {
+    const rawResponse = await fetch('http://3.89.93.225/clientes', {
         method: 'GET',
         headers: {
             'Accept': 'application/json',
@@ -8,9 +8,6 @@ const carregar = async () => {
     });
     const cliente = await rawResponse.json();
 
-    console.log(content);
-
-    carregar();
 
     let html = ""
     cliente.forEach(cliente => {
@@ -27,5 +24,4 @@ const carregar = async () => {
     document.getElementById("table-content").innerHTML = html;
 };
 
-
-carregar();
+clientes();

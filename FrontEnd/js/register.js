@@ -1,6 +1,6 @@
-//verificar url api.cliente
+
 const register = async () => {
-    const rawResponse = await fetch('http://3.89.93.225:8080/clientes', {
+    const rawResponse = await fetch('http://3.89.93.225/clientes', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
@@ -10,12 +10,14 @@ const register = async () => {
             "nome": document.getElementById("nome").value, 
             "cpf": document.getElementById("cpf").value, 
             "email": document.getElementById("email").value, 
-            "password": document.getElementById("password").value, 
+            "senha": document.getElementById("password").value, 
         })
     });
     const content = await rawResponse.json();
 
     console.log(content);
+
+    clientes();
 };
 
 
