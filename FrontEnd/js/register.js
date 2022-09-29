@@ -1,6 +1,6 @@
 
 const register = async () => {
-    const rawResponse = await fetch('http://3.89.93.225/clientes', {
+    const rawResponse = await fetch('http://3.89.93.225/clientes/cadastrar', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
