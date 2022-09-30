@@ -1,6 +1,5 @@
 # PR3Tech-Woman
 
-<h3 align ="center">🚧 Em construção 🚧</h3>
 <img src = "https://user-images.githubusercontent.com/89302180/193305262-bf62f908-2185-43dc-86de-1100e631d3d5.png" width = "300px" align = "center">
 <br>
 
@@ -11,18 +10,32 @@
 <!-- REVISAR -->
 
 
-# Funcionalidades
+## Funcionalidades
 
 - CRUDE dos clientes (cadastro, listagem, alteração e exclusão)
-<!-- colocar os endpoints -->
 
-# Acesso a documentação
+
+- Para acesso local os endpoints são:
+  -  http://localhost:8080/clientes (Para listar os clientes)
+  -  http://localhost:8080/clientes/{id} (Trazer um cliente específico)
+  -  http://localhost:8080/clientes/cadastrar  (Cadastrar um novo cliente)
+  -  http://localhost:8080/clientes/{id} (Excluir um cliente)
+
+
+- Aplicação com deploy feito na AWS rodando na Ec2, banco de dados Mysql no RDS e imagens do frontend estão no S3.
+  - http://3.89.93.225
+  
+## Acesso a documentação
 http://3.89.93.225/swagger-ui.html
 
 
+### Em andamento
+ - Partes que demandaram tempo de estudo e serão implantadas em breve:
+    - Pipeline no Aws Build
+    - Configurar Api Geteway 
+    - Um endpoint de SNS para cadastro de e-mail 
 
-
-# Squad
+## Squad
 
 |[<img src="https://user-images.githubusercontent.com/89302180/193194914-13876f9d-388c-4790-b4df-938d2f2830fa.png" width=115 > <br> <sub> Edilene Rosario </sub>](https://github.com/EdileneLopes)<br> Back-end|[<img src="https://user-images.githubusercontent.com/89302180/193194919-5f411bbb-df5e-4d57-ae1c-9f0aab98aab8.png" width=115 > <br> <sub> Juliana Rocha </sub>](https://github.com/julianamsrocha)<br> Banco de Dados|[<img src="https://user-images.githubusercontent.com/89302180/193194920-fc1c6867-380b-466a-a637-9362c7bf131e.png" width=115 > <br> <sub> Patricia Ruffino </sub>](https://github.com/PatriciaRuffino)<br> Back-end|[<img src="https://user-images.githubusercontent.com/89302180/193194921-4a52bb12-ce65-431e-b6f8-55e3d183b3aa.png" width=115 > <br> <sub> Raphaela Takei </sub>](https://github.com/RaphaMayumi)<br> Front-end|[<img src="https://user-images.githubusercontent.com/89302180/193194923-5ddedf11-ca3b-482a-bf10-8d96a3d581ee.png" width=115 > <br> <sub> Tatiana Pimentel </sub>](https://github.com/TatiCastro)<br> Front-end|
 |---|---|---|---|---|
@@ -30,7 +43,7 @@ http://3.89.93.225/swagger-ui.html
 
 
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 <br>
 
 **Linguagens**
