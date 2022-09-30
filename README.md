@@ -1,6 +1,8 @@
 # PR3Tech-Woman
 
 <h3 align ="center">🚧 Em construção 🚧</h3>
+<img src = "https://user-images.githubusercontent.com/89302180/193305262-bf62f908-2185-43dc-86de-1100e631d3d5.png" width = "300px" align = "center">
+<br>
 
 # Sobre
 
@@ -31,9 +33,13 @@ http://3.89.93.225/swagger-ui.html
 # Tecnologias Utilizadas
 <br>
 
-**Comunicação e Organização **
+**Linguagens**
 
-<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"> **[Trello](https://trello.com/b/CKUaPEKt/pr3tech-woman-grupo06-cravocanela)**
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+
+**Comunicação e Organização**
+
+<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"> **[<img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white">](https://trello.com/b/CKUaPEKt/pr3tech-woman-grupo06-cravocanela)**
 <br>
 
 
@@ -43,7 +49,7 @@ http://3.89.93.225/swagger-ui.html
 
 **IDE**
 
-<img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=whitee"><img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"> <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"> <img src="https://user-images.githubusercontent.com/89302180/193202291-470cb3c6-affc-41e7-ad63-873eb77f86fe.png" width="30px">CorelDRAW <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white">
+<img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=whitee"><img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"> <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"> 
 
 **Slides e tratamento de imagens**
 
