@@ -1,6 +1,7 @@
 # PR3Tech-Woman
 
 <img src = "https://user-images.githubusercontent.com/89302180/193305262-bf62f908-2185-43dc-86de-1100e631d3d5.png" width = "300px" align = "center"> <span>  </span> <img src = "https://user-images.githubusercontent.com/89302180/193305219-16687355-f88e-4553-a2c8-a23c9cc41b99.jpeg" width = "200px" align = "center">
+<span>  </span> <img src = "https://user-images.githubusercontent.com/89302180/193305555-84aaba02-de30-49c5-832c-e65d269e3a06.png" width = "200px" align = "center">
 <br>
 
 # Sobre
