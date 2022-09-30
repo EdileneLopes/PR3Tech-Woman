@@ -2,15 +2,21 @@
 
 <h3 align ="center">🚧 Em construção 🚧</h3>
 
-<p align ="center">Bootcamp Mulheres em Cloud<p>
-<p align ="center">Parceria Gama Academy e McKinsey&Company<p>
-<br>
-
-
-
 # Sobre
 
+É um projeto acadêmico, desenvolvido durante o programa de treinamento em parceria da [Gama Academy](https://www.gama.academy/) e 
+[McKinsey & Company](https://www.mckinsey.com.br/) com o intuíto de desenvolver e capacitar mulheres no mundo de cloud computing. Onde contempla um site de vendas de pacotes de viagem. Disponível e usando os recursos da Aws.
 <!-- REVISAR -->
+
+
+# Funcionalidades
+
+- CRUDE dos clientes (cadastro, listagem, alteração e exclusão)
+<!-- colocar os endpoints -->
+
+# Acesso a documentação
+http://3.89.93.225/swagger-ui.html
+
 
 
 
@@ -25,10 +31,11 @@
 # Tecnologias Utilizadas
 <br>
 
-**Comunicação**
+**Comunicação e Organização **
 
-<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white">
+<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"> **[Trello](https://trello.com/b/CKUaPEKt/pr3tech-woman-grupo06-cravocanela)**
 <br>
+
 
 **Repositório**
 
@@ -45,9 +52,6 @@
 
 
 
-# Funcionalidades
-
-- CRUDE dos clientes (cadastro, alteração e exclusão)
 
 
 
