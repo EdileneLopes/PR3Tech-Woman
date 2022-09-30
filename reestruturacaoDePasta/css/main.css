@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+:root{
+    --black:#141414;
+    --white:#fff;
+    --logo_green:rgba(83, 138, 127, 0.877);
+    --logo_grey: #616161;
+    --logo_blue: #399ab5de;
+    --logo_orange: #EB8836;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marcellus', serif;
+    
+}
+
+body{
+    background-color: rgb(240, 240, 240)
+}
+
+/*logo principal*/
+#logo img{
+    max-width: 260px;
+}
+
+/*navbar*/
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3%;
+    letter-spacing: 2px;
+}
+nav button{
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: transparent;
+    letter-spacing: 2px;
+}
+nav button:hover{
+    background-color: var(--logo_green);
+    color: var(--white);
+}
+nav a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+/*botão entrar*/
+#button-login{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border: 0.5px solid var(--logo_grey);
+    border-radius: 5px;
+    padding: 25px;
+    max-height: 50px;
+    font-size: 17px;
+    transition: .3s ease all;
+    background-color: transparent;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.500);
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+#button-login:hover{
+    border: 0.5px solid transparent;
+    background-image:linear-gradient(to bottom right, var(--logo_green),var(--logo_blue));
+    color: var(--white);
+    
+
+}
+.nav-container a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+/*rodapé*/
+footer{
+    margin-bottom: 0;
+    height: 60px;
+    background-color: var(--logo_grey);
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--white);
+}

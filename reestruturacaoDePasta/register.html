@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/register.css">
+    <!-- logo icon -->
+    <link rel="shortcut icon" href="/img/logoicon.png" type="image/x-icon">
+    
+    <title>Cravo&Canela | Cadastro</title>
+</head>
+<body>
+    <div class="register">
+        <div class="logo-register">
+            <a href="/index.html"><img class="logo" src="/img/logo.png"></a>
+            <p>Cadastro</p>
+        </div>
+        <form method="get">
+            <div class="user">
+                <input id="nome" type="nome" placeholder="Nome Completo" required>
+            </div>
+            <div class="user">
+                <input id="cpf" type="cpf" placeholder="999.999.999-99" required>
+            </div>
+            <div class="user">
+                <input id="email" type="email" placeholder="name@example.com" required>
+            </div>
+            <div class="user">
+                <input id="password" type="password" placeholder="Senha" required>
+            </div>
+            <!-- <div class="user">
+                <input id="confirm-password" type="password" placeholder="Confirmar Senha" required>
+            </div> -->
+            <!-- botão cadastro -->
+                <button type="button" onclick="register()" value="Register" class="btn btn-outline-dark cadastrar-btn"><a href="return-client.html">Cadastrar</a></button>
+
+                <!--função js-->
+           <script src="/js/register.js"></script>
+        </form>
+    </div>
+</body>
+</html>

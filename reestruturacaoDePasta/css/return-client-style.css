@@ -1,0 +1,39 @@
+:root{
+    --black:#141414;
+    --white:#fff;
+    --logo_green:rgba(83, 138, 127, 0.877);
+    --logo_grey: #616161;
+    --logo_blue: #399ab5de;
+    --logo_orange: #EB8836;
+}
+
+.container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.list{
+    width: 85%;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.500);
+    border-radius: 10px;
+}
+
+td,th{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.152);
+    padding:10px 15px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+th{
+    color: var(--logo_orange);
+}
+
